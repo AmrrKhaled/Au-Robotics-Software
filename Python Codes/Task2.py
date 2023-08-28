@@ -6,7 +6,7 @@ words=0
 for i in range(0, len(string)):
         if string[i].isalpha():
                 letters += 1
-        elif   string[i]=='!' or string[i]=='.':
+        elif   string[i]=='!' or string[i]=='.' or string[i]=='?':
                 sentences +=1
                 words +=1
         
