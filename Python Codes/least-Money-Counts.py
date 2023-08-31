@@ -9,7 +9,7 @@ for i in paper_bills:
             amount %= i
 
 for bill, count in bill_counts.items():
-        print(f"{count}x {bill} L.E.")
+        print(f"{count} x {bill} L.E.")
 
 
 

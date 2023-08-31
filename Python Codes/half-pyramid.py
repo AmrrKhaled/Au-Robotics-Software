@@ -1,3 +1,12 @@
+while True :
+   row = int(input("Enter an integer range from 1 to 8: "))
+   if row<=8 and row>0 :
+     break
+for i in range(1,row+1):
+    print(' '*(row-i)+'#'*i,'','#'*i)
+
+
+
 while True:
     row = input("Enter an integer range from 1 to 8: ")
     if  (1 <= int(row) <= 8):
