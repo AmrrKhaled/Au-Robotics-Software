@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/amr/Ros_Hw1/devel -DCMAKE_INSTALL_PREFIX=/home/amr/Ros_Hw1/install -G Unix Makefiles
